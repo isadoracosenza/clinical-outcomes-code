@@ -1,4 +1,4 @@
-# EBserh Clinical Outcomes – Project Repository
+# Ebserh Clinical Outcomes – Project Repository
 
 This repository contains the code, notebooks, and files used in the project for predicting hospital outcomes at the Federal University of Pelotas University Hospital (HE-UFPel), including mortality, length of stay, and 30-day readmission.
 
