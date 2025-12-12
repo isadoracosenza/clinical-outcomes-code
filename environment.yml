@@ -1,0 +1,26 @@
+name: ebserh-clinical-outcomes
+dependencies:
+  - python>=3.8
+  - numpy<=2.2
+  - jupyter
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - openpyxl
+    - imbalanced-learn
+    - scikit-learn
+    - xgboost
+    - lightgbm
+    - catboost
+    - phik
+    - fasttext
+    - seaborn
+    - Boruta
+    - lazypredict
+    - tabpfn
+    - umap-learn
+    - numpy<=2.2
+    - git+https://github.com/o-laurent/multivariate-ks-test.git#egg=mks-test
+    - kaleido
+    - shap
