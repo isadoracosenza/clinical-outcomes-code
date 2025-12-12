@@ -1,6 +1,6 @@
 # EBserh Clinical Outcomes – Project Repository
 
-This repository contains the code, notebooks, and files used in the project for predicting hospital outcomes at the Federal University of Pelotas University Hospital (HE-UFPel), including mortality, length of stay, and 7- and 30-day readmission.
+This repository contains the code, notebooks, and files used in the project for predicting hospital outcomes at the Federal University of Pelotas University Hospital (HE-UFPel), including mortality, length of stay, and 30-day readmission.
 
 > **Disclaimer:** The original codebase existed in a different directory structure. Therefore, **relative paths may not work out of the box** when running the notebooks in this organized version. This structure was created solely to improve **transparency, documentation, and partial reproducibility**, while preserving the logic and results of the original development.
 
@@ -21,7 +21,7 @@ clinical-outcomes-code/
 Contains **all auxiliary artifacts** generated throughout the project, including:
 
 * Extracted **JSON** files.
-* **Preprocessed datasets**: `X_train`, `X_test`, cleaned datasets, vectors, etc.
+* **Preprocessed datasets**: `X_train`, `X_test`, etc.
 * **Model output results**.
 * **Selected feature lists** (e.g., Boruta outputs).
 * CID lists used for **encoding**.
