@@ -83,6 +83,19 @@ To develop machine learning models capable of predicting clinical outcomes using
 * All sensitive data has been removed or anonymized following institutional and ethical guidelines.
 
 ---
+**🧩 Environment Setup**
+
+A environment.yml file is available in the root directory of the project. It contains all dependencies required to correctly reproduce the environment used during development, including Python version, main libraries, and additional packages installed via pip.
+
+To create the environment, run:
+
+```
+conda env create -f environment.yml
+conda activate ebserh-clinical-outcome
+```
+
+This ensures that all notebooks and scripts have access to the correct versions of the tools used in the project.
+---
 
 ## 📌 Contact
 
