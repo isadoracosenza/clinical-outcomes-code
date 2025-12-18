@@ -47,26 +47,11 @@ Complementary analysis notebooks, including:
 
 #### **2.2. `PREDICTION/`**
 
-Structured by outcome:
-
-```
-PREDICTION/
-├── death/
-├── lengthofstay/
-└── readmission/
-```
-
-Each folder contains:
-
-* Notebooks used for model training, validation, and evaluation.
-* Saved model pickles (`.pkl`).
+* Contains notebooks used for model training, validation, and evaluation.
 
 #### **2.3. `PREPROCESSING/`**
 
-Contains:
-
-* Notebooks used for preprocessing.
-* A subfolder `preprocessing_pickles/` containing pickles generated during preprocessing (e.g., encoders, imputers, feature selectors).
+* Contains notebooks used for preprocessing.
 
 ---
 
@@ -91,12 +76,12 @@ To create the environment, run:
 
 ```
 conda env create -f environment.yml
-conda activate ebserh-clinical-outcome
+conda activate ebserh-clinical-outcomes
 ```
 
 This ensures that all notebooks and scripts have access to the correct versions of the tools used in the project.
 ---
 
-## 📌 Contact
+## Contact
 
 If you have questions or suggestions regarding the codebase or repository organization, please open an issue or contact the project team.
